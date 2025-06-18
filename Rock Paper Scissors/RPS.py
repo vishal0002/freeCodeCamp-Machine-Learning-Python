@@ -1,7 +1,7 @@
 import random
 
 def player(prev_play, opponent_history=[], play_order={}, move_stats={"R": 0, "P": 0, "S": 0},
-           loss_streak=[0], response_map={}, game_round=[0]):
+           loss_streak=[0], game_round=[0]):
     
     game_round[0] += 1
 
